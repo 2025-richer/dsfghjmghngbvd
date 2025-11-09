@@ -1,0 +1,81 @@
+User-agent: *
+Allow: /
+
+# 排除技术文件和 API 端点
+Disallow: /api/
+Disallow: /data/
+Disallow: /env-demo
+Disallow: /_astro/
+Disallow: /_worker.js
+Disallow: /_routes.json
+Disallow: /_middleware.js
+
+# 排除开发和管理相关路径
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /test/
+Disallow: /debug/
+
+# 排除静态资源文件（使用通配符匹配）
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+Disallow: /pagefind/
+Disallow: /assets/
+Disallow: /node_modules/
+
+# 排除搜索和筛选参数（避免重复内容）
+Disallow: /*?search=*
+Disallow: /*?filter=*
+Disallow: /*?sort=*
+Disallow: /*?page=*
+Disallow: /*?lang=*
+
+# 明确允许重要页面（覆盖 Disallow 规则）
+# 多语言页面 - 所有语言版本
+Allow: /zh/
+Allow: /en/
+Allow: /ja/
+Allow: /ko/
+
+# 中文页面
+Allow: /zh/categories
+Allow: /zh/reviews
+Allow: /zh/about
+Allow: /zh/privacy
+Allow: /zh/terms
+Allow: /zh/copyright
+Allow: /zh/disclaimer
+
+# 英文页面
+Allow: /en/categories
+Allow: /en/reviews
+Allow: /en/about
+Allow: /en/privacy
+Allow: /en/terms
+Allow: /en/copyright
+Allow: /en/disclaimer
+
+# 日文页面
+Allow: /ja/categories
+Allow: /ja/reviews
+Allow: /ja/about
+Allow: /ja/privacy
+Allow: /ja/terms
+Allow: /ja/copyright
+Allow: /ja/disclaimer
+
+# 韩文页面
+Allow: /ko/categories
+Allow: /ko/reviews
+Allow: /ko/about
+Allow: /ko/privacy
+Allow: /ko/terms
+Allow: /ko/copyright
+Allow: /ko/disclaimer
+
+# 设置爬取延迟（保护服务器资源）
+Crawl-delay: 1
+
+Sitemap: https://missavdh.com/sitemap-index.xml

@@ -1,0 +1,164 @@
+{
+  "name": "MissAVDH.com - MissAV导航",
+  "short_name": "MissAVDH",
+  "description": "专业的MissAV导航网站，为您精选2025年最安全、最优质的免费和付费成人网站。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f2937",
+  "theme_color": "#ea580c",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": [
+    "adult",
+    "entertainment",
+    "navigation",
+    "japanese"
+  ],
+  "lang": "zh",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "screenshots": [],
+  "i18n": {
+    "zh": {
+      "name": "MissAVDH.com - MissAV导航",
+      "short_name": "MissAVDH",
+      "description": "专业的MissAV导航网站，为您精选2025年最安全、最优质的免费和付费成人网站。",
+      "shortcuts": [
+        {
+          "name": "分类浏览",
+          "short_name": "分类",
+          "description": "按分类浏览成人网站",
+          "url": "/zh/categories"
+        },
+        {
+          "name": "搜索网站",
+          "short_name": "搜索",
+          "description": "搜索成人网站",
+          "url": "/zh/search"
+        }
+      ]
+    },
+    "en": {
+      "name": "MissAVDH.com - MissAV Navigation",
+      "short_name": "MissAVDH",
+      "description": "Professional MissAV navigation website, featuring the safest and highest quality free and paid adult sites for 2025.",
+      "shortcuts": [
+        {
+          "name": "Browse Categories",
+          "short_name": "Categories",
+          "description": "Browse adult sites by category",
+          "url": "/en/categories"
+        },
+        {
+          "name": "Search Sites",
+          "short_name": "Search",
+          "description": "Search for adult sites",
+          "url": "/en/search"
+        }
+      ]
+    },
+    "ja": {
+      "name": "MissAVDH.com - MissAVナビゲーション",
+      "short_name": "MissAVDH",
+      "description": "プロフェッショナルなMissAVナビゲーションサイト。2025年最高の安全で高品質な無料・有料成人サイトを厳選。",
+      "shortcuts": [
+        {
+          "name": "カテゴリ閲覧",
+          "short_name": "カテゴリ",
+          "description": "カテゴリ別に成人サイトを閲覧",
+          "url": "/ja/categories"
+        },
+        {
+          "name": "サイト検索",
+          "short_name": "検索",
+          "description": "成人サイトを検索",
+          "url": "/ja/search"
+        }
+      ]
+    },
+    "ko": {
+      "name": "MissAVDH.com - MissAV 내비게이션",
+      "short_name": "MissAVDH",
+      "description": "전문 MissAV 내비게이션 사이트. 2025년 최고의 안전하고 고품질 무료 및 유료 성인 사이트를 엄선.",
+      "shortcuts": [
+        {
+          "name": "카테고리 탐색",
+          "short_name": "카테고리",
+          "description": "카테고리별로 성인 사이트 탐색",
+          "url": "/ko/categories"
+        },
+        {
+          "name": "사이트 검색",
+          "short_name": "검색",
+          "description": "성인 사이트 검색",
+          "url": "/ko/search"
+        }
+      ]
+    }
+  },
+  "shortcuts": [
+    {
+      "name": "分类浏览",
+      "short_name": "分类",
+      "description": "按分类浏览成人网站",
+      "url": "/categories",
+      "icons": [
+        {
+          "src": "/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "搜索网站",
+      "short_name": "搜索",
+      "description": "搜索成人网站",
+      "url": "/search",
+      "icons": [
+        {
+          "src": "/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

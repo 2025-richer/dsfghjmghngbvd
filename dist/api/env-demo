@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "timestamp": "2025-11-08T19:55:56.418Z",
+  "environment": {
+    "nodeEnv": "production",
+    "astroEnv": "production"
+  },
+  "config": {
+    "client": {
+      "site": {
+        "name": "MissAVDH",
+        "domain": "MissAVDH.com",
+        "baseUrl": "https://MissAVDH.com",
+        "language": "zh"
+      },
+      "theme": {
+        "systemPreference": false,
+        "animations": false
+      }
+    },
+    "server": {
+      "database": {
+        "url": "not set"
+      },
+      "api": {
+        "secretKey": "***configured***",
+        "jwtSecret": "not set"
+      },
+      "services": {
+        "analytics": "not set",
+        "debug": false
+      }
+    }
+  },
+  "raw": {
+    "client": {
+      "siteName": "MissAVDH",
+      "siteDomain": "MissAVDH.com",
+      "baseUrl": "https://MissAVDH.com",
+      "defaultLanguage": "zh"
+    },
+    "server": {
+      "database": {
+        "url": "not set"
+      },
+      "api": {
+        "secretKey": "***configured***",
+        "jwtSecret": "not set"
+      },
+      "services": {
+        "analyticsId": "",
+        "debugMode": false
+      }
+    }
+  }
+}
