@@ -25,13 +25,6 @@ Disallow: /pagefind/
 Disallow: /assets/
 Disallow: /node_modules/
 
-# 排除搜索和筛选参数（避免重复内容）
-Disallow: /*?search=*
-Disallow: /*?filter=*
-Disallow: /*?sort=*
-Disallow: /*?page=*
-Disallow: /*?lang=*
-
 # 明确允许重要页面（覆盖 Disallow 规则）
 # 多语言页面 - 所有语言版本
 Allow: /zh/
@@ -40,6 +33,7 @@ Allow: /ja/
 Allow: /ko/
 
 # 中文页面
+Allow: /zh/sites/missav
 Allow: /zh/categories
 Allow: /zh/reviews
 Allow: /zh/about
@@ -49,6 +43,7 @@ Allow: /zh/copyright
 Allow: /zh/disclaimer
 
 # 英文页面
+Allow: /en/sites/missav
 Allow: /en/categories
 Allow: /en/reviews
 Allow: /en/about
@@ -58,6 +53,7 @@ Allow: /en/copyright
 Allow: /en/disclaimer
 
 # 日文页面
+Allow: /ja/sites/missav
 Allow: /ja/categories
 Allow: /ja/reviews
 Allow: /ja/about
@@ -67,6 +63,7 @@ Allow: /ja/copyright
 Allow: /ja/disclaimer
 
 # 韩文页面
+Allow: /ko/sites/missav
 Allow: /ko/categories
 Allow: /ko/reviews
 Allow: /ko/about
@@ -79,3 +76,4 @@ Allow: /ko/disclaimer
 Crawl-delay: 1
 
 Sitemap: https://missavdh.com/sitemap-index.xml
+Sitemap: https://missavdh.com/sitemap-0.xml
